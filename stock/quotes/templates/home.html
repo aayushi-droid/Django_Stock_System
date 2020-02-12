@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if ticker %}
+	{{ ticker }}
+{% endif %}
+
+{% if api %}
+	{% if api == "Error..." %}
+		There was a problem
+	{% else %} 
+
+		<h1>{{ api.companyName }}</h1><br/>
+		Price: {{ api.latestPrice }}<br/>
+		Volume: {{ api.latestVolume }}<br/>
+		Prev: {{ api.previousClose }}<br/>
+		PrevVol: {{ api.previousVolume }}<br/>
+
+		<!-- {% for key, value in api.items %}
+			{{ key }}: {{ value }} <br/>
+		{% endfor %} -->
+
+
+	{% endif%}
+
+
+{% endif %}
+
+
+
+
+{% endblock %}
