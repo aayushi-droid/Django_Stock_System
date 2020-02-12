@@ -5,14 +5,12 @@
 
 **App**: quote
 
-**Module**: stock
+**Module**: stock a small database
 
-**view**: home, about, add_stock, delete_stock
+**View**: home, about, add_stock, delete_stock
 
-**url**: path.
+**Url**: path.
 
-**admin**: admin for database
+**Admin**: admin for database
 
-**module**: database
-
-**migration**: create database
+**Migration**: create database
