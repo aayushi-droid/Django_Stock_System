@@ -1,19 +1,19 @@
 # This is a stock system using Python and Django
 
-### Activate & Deactivate: 
+### 1. Activate & Deactivate: 
     source venv/scripts/activate
     Use pip freeze to see all the installed package
 ***
     cd venv/scripts/
     deactivate
     
-### Start the Project
+### 2. Start the Project
     Python manage.py runserver
     
     
 
 
-### Components 
+### 3. Components 
 
 **Quote**: the application package
 
