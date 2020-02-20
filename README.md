@@ -1,16 +1,30 @@
-# This is a stock system
+# This is a stock system using Python and Django
+
+### Activate & Deactivate: 
+    source venv/scripts/activate
+    Use pip freeze to see all the installed package
+***
+    cd venv/scripts/
+    deactivate
+    
+### Start the Project
+    Python manage.py runserver
+    
+    
 
 
-## Django:
+### Components 
 
-**App**: quote
+**Quote**: the application package
 
-**Module**: stock a small database
+**Template**: html documents for each view
 
-**View**: home, about, add_stock, delete_stock
+**Views.py**: front end logic and operations in python
 
-**Url**: path.
+**Url.py**: define url path.
 
-**Admin**: admin for database
+**Model.py**: stock a small database
 
-**Migration**: create database
+**Admin.py**: admin for database
+
+**Migration.py**: create database
